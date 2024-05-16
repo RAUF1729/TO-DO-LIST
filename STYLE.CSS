@@ -1,0 +1,68 @@
+body { 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy91LRlqRvBmWW8NaApXcGTaYEPw0DyK3AfuW_8WHtOnF375t6npYGgYI-9A&s');
+        background-size: 1920px 1080px;
+        background-repeat: no-repeat;
+  }
+#todo-container {
+    background:rgb(247,136,47);
+    width: 400px;
+    margin: 0 auto;
+    padding: 70px;
+    color:black;
+    border-radius: 10px;
+  }
+  #header {
+    margin: 5px;
+    font-size: 15px;
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: 20px; 
+  }
+  #input-box {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  #input-button {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(247,195,49);
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align:left;
+  }
+  li {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .edit-btn, .delete-btn {
+    float: right;
+    color: black;
+    cursor: pointer;
+    margin: 3px 5px;
+    border: none;
+    padding: 3px 5px;
+    background: none;
+  }
+.completed {
+    text-decoration: line-through;
+    color: rgb(208,189,244);
+    border: 1px solid gray;
+  }
